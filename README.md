@@ -50,7 +50,7 @@ npm install
 ```
 
 ##如果你的电脑已经有很多个vue项目以上的全局安装就不需要了，直接从创建目录开始
-启动服务(http://localhost:9090)
+启动服务(http://localhost:8080)
 
 ```
 npm run dev
