@@ -4,7 +4,7 @@
 
 ***
 
->* 很多环境现在需要依赖node等环境,在构件vue项目的时候需要最新的node,[node官网](https://nodejs.org/en/)下载最新安装包，自带npm最新版
+>* 很多环境现在需要依赖node等环境,在构件vue项目的时候需要最新的node,[官网](https://nodejs.org/en/)下载最新安装包，自带npm最新版
 >* mac 可以用n模块，首先安装n模块一行命令搞定
 
 ```
@@ -44,12 +44,12 @@ npm install vue-cli -g
 ```
 vue init webpack vue-name
 ```
+##如果你的电脑已经有很多个vue项目以上的全局安装就不需要了，直接从创建目录开始
 进入vue-name 目录
 ```
 npm install 
 ```
 
-##如果你的电脑已经有很多个vue项目以上的全局安装就不需要了，直接从创建目录开始
 启动服务(http://localhost:8080)
 
 ```
