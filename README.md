@@ -21,7 +21,7 @@ npm config set cache "C:\Program Files\nodejs\node_cache"
 
 * 配置node的环境变量,进入我的电脑→属性→高级→环境变量。
 * 执行完node安装包之后，将node.exe所在的目录复制，加入系统环境变量PATH中，便于在任意位置执行node应用
-* 在系统变量下新建"NODE_PATH"，输入”C:\Program Files\nodejs\node_global\node_modules“。这个目录一般都是node默认安装的路径，如果不是，自己找到相应的位置换掉
+* 在系统变量下新建"NODE_PATH"，输入”C:\Program Files\nodejs\node_global“。（这个路径一定不能多加一个文件目录，不然全局安装的工具使用不了，只能这样配置，此坑已走过）这个目录一般都是node默认安装的路径，如果不是，自己找到相应的位置换掉
 * 由于改变了module的默认地址，所以上面的用户变量都要跟着改变一下,用户变量找到path添加;%NODE_PATH%;
 * 至此一些配置已经完成
 
