@@ -60,3 +60,4 @@ npm run dev
 ```
 npm run build
 ```
+###[vue2.0demo 实例](https://github.com/yangjingjing1234/vue2.0--small-demo)
